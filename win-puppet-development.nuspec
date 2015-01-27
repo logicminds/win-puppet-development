@@ -41,7 +41,6 @@
       <dependency id="git-credential-winstore" />
       <dependency id="poshgit" />
 	  <dependency id="dotpeek" />
-      <dependency id="poshgit" />
       <dependency id="ruby" version="2.0.0.48100" />
       <dependency id="putty.install" />
       <dependency id="winscp" />
