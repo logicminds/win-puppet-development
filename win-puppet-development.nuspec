@@ -8,7 +8,6 @@
     <owners>Corey Osman</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
     <projectUrl>https://github.com/bodeco/win-puppet-development</projectUrl>
-    <iconUrl></iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A complete puppet environment for puppet development on windows
 	  
