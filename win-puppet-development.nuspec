@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>bodeco.win-puppet-environment</id>
+    <version>0.1.0</version>
+    <title>Bodeco Puppet Development Environment for Windows</title>
+    <authors>Corey Osman</authors>
+    <owners>Corey Osman</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/bodeco/win-puppet-development</projectUrl>
+    <iconUrl></iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A complete puppet environment for puppet development on windows
+	  
+	   git
+       git-credential-winstore
+       sublimetext3
+       poshgit
+       dotpeek
+       ruby -Version 2.0.0.48100
+       ruby2.devkit
+       puppet
+       vim
+       virtualbox
+       wget
+       curl
+       sublimetext3
+       poshgit
+       sourcetree
+       vagrant
+       virtualbox.extensionpack
+       packer
+       packer-post-processor-vagrant-vmware-ovf
+	  </description>
+    <summary>A complete puppet environment for puppet development on windows</summary>
+    <releaseNotes></releaseNotes>
+    <copyright>2015 Corey Osman</copyright>
+    <tags>puppet</tags>
+    <dependencies>
+      <dependency id="git" />
+      <dependency id="sublimetext3" />
+      <dependency id="git-credential-winstore" />
+      <dependency id="poshgit" />
+	  <dependency id="dotpeek" />
+      <dependency id="poshgit" />
+      <dependency id="ruby" version="2.0.0.48100" />
+      <dependency id="putty.install" />
+      <dependency id="winscp" />
+      <dependency id="ruby2.devkit" />
+      <dependency id="puppet" />
+      <dependency id="7zip.install"  />
+	  <dependency id="vim" />
+	  <dependency id="virtualbox" />
+      <dependency id="wget" />
+      <dependency id="curl" />
+      <dependency id="sourcetree" />
+      <dependency id="vagrant" />
+	  <dependency id="virtualbox.extensionpack" />
+	  <dependency id="packer" />
+	  <dependency id="packer-post-processor-vagrant-vmware-ovf" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
